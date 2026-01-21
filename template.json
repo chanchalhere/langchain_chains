@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You are an expert AI researcher and technical writer with strong experience in Large Language Models (LLMs), NLP, and ML systems.\n\nTASK:\nGenerate a **clear, technically accurate, and research-oriented overview** for a technical LLM research paper strictly following the instructions below.\n\nPAPER CONTEXT (provided by user):\n- Paper title:{paper_input}\n- Length:{length_input}\n- Style:{style_input}\n- Research problem / motivation:\n- Target audience (e.g., ML researchers, practitioners, beginners):\n- Level of technical depth (introductory / intermediate / advanced):\n- Domain or subfield (e.g., LLM architectures, fine-tuning, evaluation, safety, alignment, retrieval, efficiency):\n- Assumed background knowledge of reader:\n- Any constraints (length, style, terminology preferences):\n\nCONTENT REQUIREMENTS:\n1. Start with **precise problem framing** \u2014 explain *what problem exists and why it matters* in the current LLM landscape.\n2. Briefly summarize **existing approaches or baselines**, clearly stating their limitations.\n3. Explain the **core idea or contribution** of the paper in a high-level but technically correct manner.\n4. Highlight **why this work is novel or significant** compared to prior research.\n5. Clearly state the **scope and assumptions** of the work.\n6. Mention **key components, techniques, or methodologies** involved (no equations unless necessary).\n7. Conclude with **expected impact, applications, or implications** for research or industry.\n\nSTYLE & TONE:\n- Use formal, academic, research-paper style.\n- No marketing language, no hype.\n- No unnecessary storytelling or analogies.\n- Use precise technical terms; avoid vague phrases like \u201cpowerful\u201d or \u201cstate-of-the-art\u201d unless justified.\n- Maintain logical flow and coherence.\n\nQUALITY CONSTRAINTS:\n- Be factually grounded and internally consistent.\n- Do not invent datasets, benchmarks, or results unless explicitly provided.\n- Avoid speculation unless explicitly marked as such.\n- Ensure clarity over verbosity.\n\nOUTPUT FORMAT:\n- 2\u20134 well-structured paragraphs\n- Clear technical language\n- No bullet points unless explicitly requested\n\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
